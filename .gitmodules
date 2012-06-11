@@ -1,9 +1,10 @@
-[submodule "apr-iconv"]
-	path = apr-iconv
-	url = git://github.com/apache/apr-iconv.git
+
 [submodule "apr"]
 	path = apr
 	url = git://github.com/apache/apr
 [submodule "apr-util"]
 	path = apr-util
 	url = git://github.com/apache/apr-util
+[submodule "log4cxx"]
+	path = log4cxx
+	url = git://github.com/apache/log4cxx.git
