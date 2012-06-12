@@ -1,5 +1,6 @@
 #!/bin/sh
 set +v
+git submodule update --init
 cd log4cxx
-source ant $* -lib ../libraries/cpptasks-1.0b5.jar -lib ../libraries/xercesImpl.jar
+ant $* -lib ../libraries/cpptasks-1.0b5.jar -lib ../libraries/xercesImpl.jar
 cd ..
