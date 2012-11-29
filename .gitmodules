@@ -7,4 +7,4 @@
 	url = git://github.com/apache/apr-util
 [submodule "log4cxx"]
 	path = log4cxx
-	url = git://github.com/apache/log4cxx.git
+	url = git@github.com:jmuhonen-broadsoft/log4cxx.git
